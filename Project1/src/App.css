@@ -5,7 +5,7 @@
 .Navbar {
   background-color: orangered;
   border-radius: 5px;
-  width: 100%;
+  margin: 0 2px 0 2px;
 }
 
 i {
@@ -32,17 +32,6 @@ img {
   font-weight: bolder;
 }
 
-button {
-  display: block;
-  width: 120px;
-  padding: 2px;
-  margin: 12px 0 5px 0;
-  cursor: pointer;
-  background-color: black;
-  border: 0;
-  border-radius: 5px;
-}
-
 .display-user-div {
   display: flex;
   flex-direction: column;
@@ -51,7 +40,7 @@ button {
 }
 
 .spinner {
-  width: 250px;
+  width: 150px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -85,4 +74,44 @@ form {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+/* style={btnStyle}  */
+button {
+  color: whitesmoke;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 99%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.alert-box {
+  color: black;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(245, 245, 245, 0.795);
+  font-size: 15px;
+  font-weight: bolder;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 99%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.alert-icon {
+  color: red;
+  position: absolute;
+  top: 2px;
 }
